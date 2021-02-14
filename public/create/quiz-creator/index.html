@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Creator | KahootClone</title>
+        <title>Kreator | kot.bot</title>
         <link rel = "stylesheet" href = "../../css/quizCreator.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&subset=all" rel="stylesheet">
     </head>
     <body onload = "setBGColor()">
-        <h1 id = "title">Kahoot Quiz Creator Studio</h1>
+        <h1 id = "title">kot.bot Studio Tworzenia Quizów</h1>
         
         <div class="form-field">
-            <label id = "quizTitle">Quiz Title</label>
+            <label id = "quizTitle">Nazwa Quizu</label>
             <input id = "name" type = "text" name="name" autofocus/>
         </div>
         <br>
         <br>
         <div id = "allQuestions">
             <div id="question-field">
-                <label>Question 1: </label>
+                <label>Pytanie 1: </label>
                 <input class = "question" id = "q1" type = "text" autofocus/>
                 <br>
                 <br>
-                <label>Answer 1: </label>
+                <label>Opcja 1: </label>
                 <input id = "1a1" type = "text" autofocus/>
-                <label>Answer 2: </label>
+                <label>Opcja 2: </label>
                 <input id = "1a2" type = "text" autofocus/>
                 <br>
                 <br>
-                <label>Answer 3: </label>
+                <label>Opcja 3: </label>
                 <input id = "1a3"  type = "text"autofocus/>
-                <label>Answer 4: </label>
+                <label>Opcja 4: </label>
                 <input id = "1a4"  type = "text" autofocus/>
                 <br>
                 <br>
-                <label>Correct Answer (1-4) :</label>
+                <label>Poprawna odpowiedź (1-4) :</label>
                 <input class = "correct" id = "correct1"  type = "number" autofocus/>
             </div>
         </div>
         <br>
-        <button onclick = "addQuestion()">Add another question</button>
+        <button onclick = "addQuestion()">Następne pytanie</button>
         
         <br>
         <br>
         
         <div class="form-field">
-            <button onclick = "updateDatabase()">Create Quiz</button>
+            <button onclick = "updateDatabase()">Utwórz Quiz</button>
         </div>
         
         <br>
         
-        <button onclick = 'cancelQuiz()'>Cancel quiz and return to quiz selection</button>
+        <button onclick = 'cancelQuiz()'>Anuluj i wyjdź</button>
         
         <script src = "../../socket.io/socket.io.js"></script>
         <script src = "../../js/quizCreator.js"></script>

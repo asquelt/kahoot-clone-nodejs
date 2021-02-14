@@ -44,16 +44,16 @@ function addQuestion(){
     var correctLabel = document.createElement('label');
     var correctField = document.createElement('input');
     
-    questionLabel.innerHTML = "Question " + String(questionNum) + ": ";
+    questionLabel.innerHTML = "Pytanie " + String(questionNum) + ": ";
     questionField.setAttribute('class', 'question');
     questionField.setAttribute('id', 'q' + String(questionNum));
     questionField.setAttribute('type', 'text');
     
-    answer1Label.innerHTML = "Answer 1: ";
-    answer2Label.innerHTML = " Answer 2: ";
-    answer3Label.innerHTML = "Answer 3: ";
-    answer4Label.innerHTML = " Answer 4: ";
-    correctLabel.innerHTML = "Correct Answer (1-4): ";
+    answer1Label.innerHTML = "Opcja 1: ";
+    answer2Label.innerHTML = " Opcja 2: ";
+    answer3Label.innerHTML = "Opcja 3: ";
+    answer4Label.innerHTML = " Opcja 4: ";
+    correctLabel.innerHTML = "Poprawna odpowiedź (1-4): ";
     
     answer1Field.setAttribute('id', String(questionNum) + "a1");
     answer1Field.setAttribute('type', 'text');
@@ -95,7 +95,7 @@ function addQuestion(){
 
 //Called when user wants to exit quiz creator
 function cancelQuiz(){
-    if (confirm("Are you sure you want to exit? All work will be DELETED!")) {
+    if (confirm("Na pewno? Wszystko zostanie bezpowrotnie STRACONE!")) {
         window.location.href = "../";
     }
 }
