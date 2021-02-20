@@ -173,7 +173,7 @@ socket.on('GameOver', function(data){
     document.getElementById('nextQButton').style.display = "none";
     document.getElementById('getStatsButton').style.display = "none";
     document.getElementById('winnerTitle').style.display = "block";
-    document.getElementById('winnerTitle').innerHTML = "Zwycięzcy!";
+    document.getElementById('winnerTitle').innerHTML = "👑 👑 👑 Zwycięzcy! 👑 👑 👑";
     } else {
     document.getElementById('nextQButton').style.display = "block";
     document.getElementById('getStatsButton').style.display = "none";

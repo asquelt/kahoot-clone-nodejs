@@ -84,41 +84,41 @@
 }
 
 .winners {
-    width: 600px;
+    width: 50%;
     margin: 0 auto;
     //border: 1px solid #B0B0B0;
 }
 
 #winner1{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     background: #f4f4f4;
     display: none;
 }
 #winner2{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 22px;
     background: #f4f4f4;
     display: none;
 }
 #winner3{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     background: #f4f4f4;
     display: none;
 }
 #winner4{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: left;
     background: #f4f4f4;
     display: none;
 }
 #winner5{
     font-family: 'Raleway', sans-serif;
-    text-align: center;
+    text-align: left;
     background: #f4f4f4;
     display: none;
 }
